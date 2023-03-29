@@ -1,6 +1,9 @@
 name: autoupdate
 on:
-  push: {}
+  push:
+    branches:
+      - develop
+      - main
 jobs:
   autoupdate:
     name: autoupdate
